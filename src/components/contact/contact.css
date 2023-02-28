@@ -1,0 +1,112 @@
+.contact{
+    padding: 2rem 0;
+}
+
+.contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contact .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.contact .col-1, .contact .col-2{
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.contact .col-1{
+    padding: 20px  3rem;
+}
+.contact .col-2{
+    padding: 10px 3rem;
+}
+
+.contact input, .contact textarea{
+    color: black;
+    width: 100%;
+}
+
+.contact input, .contact textarea{
+    padding: 10px;
+    font-size: 16px;
+    outline: 0;
+    margin: 5px 0;
+    background: transparent;
+    color: #ffd;
+}
+
+
+.telephone, .email{
+    display: flex;
+    align-items: center;
+}
+
+.telephone span, .email span{
+    margin-left: 10px;
+}
+
+.socials .icon{
+    font-size: 30px;
+    margin: 20px 10px;
+    background: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.socials .icon:hover{
+    background: #000;
+}
+
+.contact p, .email, .telephone{
+    margin: 10px 0;
+}
+
+.msg-btn{
+    display: flex;
+    align-items: center;
+}
+.msg-icon{
+    margin-left: 5px;
+}
+
+.copyright{
+    border-top: 1.5px solid orangered;
+    font-size: 11px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copyright p{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .contact .col-1, .contact .col-2{
+        flex-basis: 80%;
+        margin: auto;
+        padding: 0;
+    }
+    .contact .col-1{
+        padding: 0 10px;
+    }
+    .contact .col-2{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .contact .col-1{
+        padding: 0 20px;
+    }
+}
