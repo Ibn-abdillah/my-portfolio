@@ -35,7 +35,8 @@
 }
 
 .portfolio h3{
-    color: #000;
+    color: #fff;
+    font-style: italic;
 }
 .portfolio p{
     color: #fff;
