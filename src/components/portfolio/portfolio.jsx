@@ -36,7 +36,7 @@ function Portfolio() {
           <h3>React website Design</h3>
           <p>with React, react-icons, custom css.</p>
           <div className="project-btn">
-            <button><a href="https://https://a-react-website.netlify.app/">View</a></button>
+            <button><a href="https://a-react-website.netlify.app/">View</a></button>
             <button><a href="#">Source</a></button>
           </div>
         </div>
