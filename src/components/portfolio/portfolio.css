@@ -49,10 +49,19 @@
     justify-content: space-between;
 }
 
+.mobile {
+    text-align: center;
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     .project{
         flex-basis: 80%;
         margin: 20px auto;
+    }
+
+    .mobile{
+        display: block;
     }
 }
 

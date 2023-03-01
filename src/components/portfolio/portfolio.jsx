@@ -12,6 +12,8 @@ import show from '../../assets/show.png'
 import form from '../../assets/form.png'
 import gallery from '../../assets/gallery.png'
 import editor from '../../assets/editor.png'
+import load from '../../assets/load.png'
+import clock from '../../assets/clock.png'
 
 import './portfolio.css'
 
@@ -20,14 +22,15 @@ function Portfolio() {
     <div className='portfolio' id='portfolio'>
       <h2><span>My</span> Portfolio</h2>
       <div className="content">
+      <h3 className='mobile'>Built with React JS 👇</h3>
       <div className="project">
           <img src={crypto} alt="" />
-          <h3>Crypto example Design</h3>
+          <h3>Trading App</h3>
           <p>with React, react-icons, fetching the featured page contents 
              with CoinGecko api.</p>
           <div className="project-btn">
             <button><a href="https://crypto-example.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/trading-app">Source</a></button>
           </div>
         </div>
         
@@ -37,7 +40,7 @@ function Portfolio() {
           <p>with React, react-icons, custom css, css grid layout.</p>
           <div className="project-btn">
             <button><a href="https://react-grid-layout.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/react-grid-layout">Source</a></button>
           </div>
         </div>
 
@@ -47,9 +50,11 @@ function Portfolio() {
           <p>with React, react-icons, custom css.</p>
           <div className="project-btn">
             <button><a href="https://a-react-website.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/A-react-website">Source</a></button>
           </div>
         </div>
+
+        <h3 className='mobile'>Built with HTML5, CSS3 and JS 👇</h3>
 
         <div className="project">
           <img src={ecommerce} alt="" />
@@ -57,7 +62,7 @@ function Portfolio() {
           <p>with HTML5, CSS3, Javascript</p>
           <div className="project-btn">
             <button><a href="https://e-commerce-website-one.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/E-commerce-website">Source</a></button>
           </div>
         </div>
 
@@ -67,7 +72,7 @@ function Portfolio() {
           <p>with HTML5, CSS3, Javascript</p>
           <div className="project-btn">
             <button><a href="https://barbershop-website1.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Barber-Shop-Website">Source</a></button>
           </div>
         </div>
 
@@ -77,7 +82,7 @@ function Portfolio() {
           <p>with HTML5 and CSS3</p>
           <div className="project-btn">
             <button><a href="https://netflix-clone-pro.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Netflix-clone-project">Source</a></button>
           </div>
         </div>
 
@@ -87,7 +92,7 @@ function Portfolio() {
           <p>with HTML5, CSS3, Javascript</p>
           <div className="project-btn">
             <button><a href="https://interior-website-project.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Interior-Website">Source</a></button>
           </div>
         </div>
 
@@ -97,7 +102,7 @@ function Portfolio() {
           <p>with HTML5, CSS3 and Javascript</p>
           <div className="project-btn">
             <button><a href="https://image-gallery-pro.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Image-Gallery">Source</a></button>
           </div>
         </div>
 
@@ -107,7 +112,7 @@ function Portfolio() {
           <p>with HTML5 and CSS3</p>
           <div className="project-btn">
             <button><a href="https://creditcard-1.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Virtual-Card">Source</a></button>
           </div>
         </div>
 
@@ -117,7 +122,27 @@ function Portfolio() {
           <p>with HTML5, CSS3 and Javascript</p>
           <div className="project-btn">
             <button><a href="https://codeeditor-1.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Code-Editor-App">Source</a></button>
+          </div>
+        </div>
+
+        <div className="project">
+          <img src={clock} alt="" />
+          <h3>Analog Clock</h3>
+          <p>with HTML5, CSS3 and Javascript</p>
+          <div className="project-btn">
+            <button><a href="https://analog-clock-1.netlify.app/">View</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Analog-clock">Source</a></button>
+          </div>
+        </div>
+
+        <div className="project">
+          <img src={load} alt="" />
+          <h3>Loading bar</h3>
+          <p>with HTML5, CSS3 and Javascript</p>
+          <div className="project-btn">
+            <button><a href="https://loading-bar-1.netlify.app/">View</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Loading-bar">Source</a></button>
           </div>
         </div>
 
@@ -127,7 +152,7 @@ function Portfolio() {
           <p>with HTML5 and CSS3</p>
           <div className="project-btn">
             <button><a href="https://twitter-signin-page.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Twitter-SignIn-page">Source</a></button>
           </div>
         </div>
 
@@ -137,7 +162,7 @@ function Portfolio() {
           <p>with HTML5, CSS3 and Javascript</p>
           <div className="project-btn">
             <button><a href="https://form-001.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Login-Form">Source</a></button>
           </div>
         </div>
 
@@ -147,7 +172,7 @@ function Portfolio() {
           <p>with HTML5, CSS3 and Javascript</p>
           <div className="project-btn">
             <button><a href="https://showpassword-1.netlify.app/">View</a></button>
-            <button><a href="#">Source</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Toggle-password">Source</a></button>
           </div>
         </div>
       </div>

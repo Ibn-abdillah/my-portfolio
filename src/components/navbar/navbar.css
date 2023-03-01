@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    position: sticky;
     border-bottom: 1px solid orangered;
 }
 
@@ -42,9 +41,6 @@ span{
 
 
 @media screen and (max-width: 750px) {
-    .navbar nav{
-        border-bottom: none;
-    }
     
     .nav-menu{
         position: fixed;
