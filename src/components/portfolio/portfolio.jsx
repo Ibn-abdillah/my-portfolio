@@ -29,7 +29,7 @@ function Portfolio() {
           <p>with React, react-icons, fetching the featured page contents 
              with CoinGecko api.</p>
           <div className="project-btn">
-            <button><a href="https://crypto-example.netlify.app/">View</a></button>
+            <button><a href="https://trading-apps.netlify.app/">View</a></button>
             <button><a href="https://github.com/Ibn-abdillah/trading-app">Source</a></button>
           </div>
         </div>
