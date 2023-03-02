@@ -14,6 +14,8 @@ import gallery from '../../assets/gallery.png'
 import editor from '../../assets/editor.png'
 import load from '../../assets/load.png'
 import clock from '../../assets/clock.png'
+import weather from '../../assets/weather.png'
+import coins from '../../assets/coins.png'
 
 import './portfolio.css'
 
@@ -43,6 +45,16 @@ function Portfolio() {
             <button><a href="https://github.com/Ibn-abdillah/react-grid-layout">Source</a></button>
           </div>
         </div>
+        
+        <div className="project">
+          <img src={coins} alt="" />
+          <h3>Multipage Trading app</h3>
+          <p>with React, crypto api and custom css</p>
+          <div className="project-btn">
+            <button><a href="https://multipage-trading-app.netlify.app">View</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/Trading-website">Source</a></button>
+          </div>
+        </div>
 
         <div className="project">
           <img src={exe} alt="" />
@@ -51,6 +63,16 @@ function Portfolio() {
           <div className="project-btn">
             <button><a href="https://a-react-website.netlify.app/">View</a></button>
             <button><a href="https://github.com/Ibn-abdillah/A-react-website">Source</a></button>
+          </div>
+        </div>
+
+        <div className="project">
+          <img src={weather} alt="" />
+          <h3>Weather App</h3>
+          <p>with React, openweathermap api, custom css.</p>
+          <div className="project-btn">
+            <button><a href="https://weatherfetchapi.netlify.app/">View</a></button>
+            <button><a href="https://github.com/Ibn-abdillah/weather-app">Source</a></button>
           </div>
         </div>
 
