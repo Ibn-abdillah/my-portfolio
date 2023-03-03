@@ -31,11 +31,11 @@ function Contact() {
       <h2>Contact <span>Me</span></h2>
       <div className="content">
         <div className="col-1">
-            <h3><span>Contact</span> Me</h3>
+            <h3><span>Hire</span> Me</h3>
             <p>
-              If you have any project in your mind. I'm ready to create
-              very nice interface and responsive design for companies
-              all around the world.
+              I'm ready for full-time job or if you have any project in your mind. 
+              I'm ready to create very nice interface and responsive design for 
+              companies all around the world.
             </p>
 
             <div className='telephone'>
