@@ -5,6 +5,21 @@ import './about.css'
 import { HiDownload } from 'react-icons/hi'
 
 function About() {
+  
+    const onButtonClick = () => {
+      fetch('MyCV.pdf').then(response => {
+          response.blob().then(blob => {
+
+              const fileURL = window.URL.createObjectURL(blob);
+            
+              let alink = document.createElement('a');
+              alink.href = fileURL;
+              alink.download = 'MyCV.pdf';
+              alink.click();
+          })
+      })
+  }
+  
   return (
     <div className='about' id='about'>
         <h2><span>About</span> Me</h2>
@@ -23,7 +38,7 @@ function About() {
                 an organization / industry. If you hire me as your Web Developer,
                 I assure you I will fit into your team quickly.
                 </p>
-                <button><a href="#">Download CV</a><HiDownload className='icon' /></button>
+                <button onClick={onButtonClick}>Download CV<HiDownload className='icon' /></button>
             </div>
         </div>
     </div>
