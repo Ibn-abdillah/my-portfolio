@@ -51,7 +51,7 @@ function Portfolio() {
           <h3>Coins List</h3>
           <p>with React, crypto api and custom css</p>
           <div className="project-btn">
-            <button><a href="https://coins-pricelist.netlify.app/">View</a></button>
+            <button><a href="https://multipage-trading-app.netlify.app/">View</a></button>
             <button><a href="https://github.com/Ibn-abdillah/Trading-website">Source</a></button>
           </div>
         </div>
