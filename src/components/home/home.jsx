@@ -23,10 +23,7 @@ function Home() {
             <div className='col-1'>
                 <p><span>Hello</span> I'm</p>
                 <h2>{text}</h2>
-                <h3>React Developer.</h3>
-                <p>Frontend web developer with 1+ year of building
-                   experience.
-                </p>
+                <h3>A Frontend web developer.</h3>
                 <button><BsWhatsapp className='btn-icon'/><a href="https://Wa.me/2347082216020">Let's Chat</a></button>
             </div>
 

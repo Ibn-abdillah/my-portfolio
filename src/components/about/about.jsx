@@ -31,9 +31,9 @@ function About() {
 
             <div className="col-2">
              <h3>Who <span>Am</span> I ?</h3>
-             <p> I'm Akinola Sheriff , a react frontend developer, I create responsive 
+             <p> I'm Akinola Sheriff , a frontend developer, I create responsive 
                 secure websites and I take my work as a Web Developer seriously and this means 
-                I always ensure my skills are kept up to date and also I'm seeking a react 
+                I always ensure my skills are kept up to date and also I'm seeking a 
                 frontend role opportunities where I can impact my skills for the success of
                 an organization / industry. If you hire me as your Web Developer,
                 I assure you I will fit into your team quickly.

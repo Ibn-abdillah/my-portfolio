@@ -9,9 +9,9 @@ import interior from '../../assets/interior.png'
 import netflix from '../../assets/netflix.png'
 import twitter from '../../assets/twitter.png'
 import show from '../../assets/show.png'
-import form from '../../assets/form.png'
+//import form from '../../assets/form.png'
 import gallery from '../../assets/gallery.png'
-import editor from '../../assets/editor.png'
+//import editor from '../../assets/editor.png'
 import load from '../../assets/load.png'
 import clock from '../../assets/clock.png'
 import weather from '../../assets/weather.png'
@@ -138,7 +138,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="project">
+        {/* <div className="project">
           <img src={editor} alt="" />
           <h3>Code Editor</h3>
           <p>with HTML5, CSS3 and Javascript</p>
@@ -146,7 +146,7 @@ function Portfolio() {
             <button><a href="https://codeeditor-1.netlify.app/">View</a></button>
             <button><a href="https://github.com/Ibn-abdillah/Code-Editor-App">Source</a></button>
           </div>
-        </div>
+        </div> */}
 
         <div className="project">
           <img src={clock} alt="" />
@@ -178,7 +178,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="project">
+        {/* <div className="project">
           <img src={form} alt="" />
           <h3>signup and signin form</h3>
           <p>with HTML5, CSS3 and Javascript</p>
@@ -186,7 +186,7 @@ function Portfolio() {
             <button><a href="https://form-001.netlify.app/">View</a></button>
             <button><a href="https://github.com/Ibn-abdillah/Login-Form">Source</a></button>
           </div>
-        </div>
+        </div> */}
 
         <div className="project">
           <img src={show} alt="" />
