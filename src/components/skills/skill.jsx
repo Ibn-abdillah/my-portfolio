@@ -1,10 +1,12 @@
 import React from 'react'
-import html from '../../assets/html.png'
+import html from '../../assets/html1.png'
 import css from '../../assets/css3.png'
 import js from '../../assets/js.png'
 import react from '../../assets/react.png'
 import rtk from '../../assets/rtk.png'
-import mui from '../../assets/mui.png'
+import git from '../../assets/git1.png'
+import tailwind from '../../assets/tailwind.png'
+import github from '../../assets/github.png'
 import './skill.css';
 
 function Skill() {
@@ -23,6 +25,11 @@ function Skill() {
         </div>
 
         <div className="items">
+        <img src={tailwind} alt="" />
+        <h4>Tailwind CSS</h4>
+        </div>
+
+        <div className="items">
         <img src={js} alt="" />
         <h4>Javascript</h4>
         </div>
@@ -38,8 +45,13 @@ function Skill() {
         </div>
 
         <div className="items">
-        <img src={mui} alt="" />
-        <h4>MUI</h4>
+        <img src={git} alt="" />
+        <h4>GIT</h4>
+        </div>
+
+        <div className="items">
+        <img src={github} alt="" />
+        <h4>GITHUB</h4>
         </div>
 
       </div>
