@@ -8,11 +8,15 @@ import Skill from './components/skills/skill';
 
 import './App.css';
 
+// Loading from it's component  
+import Loading from './components/Loading';
+
 import { FaArrowCircleUp } from 'react-icons/fa'
 import { useEffect, useState } from 'react';
 
 function App() {
   const [showBtn , setShowBtn] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -31,18 +35,43 @@ function App() {
     })
   }
 
+    /// pre Loading effect
+    useEffect(() =>{
+      setTimeout(() => {
+            setIsLoading(false)
+        }, 2000);
+    },[]) 
+
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Skill />
-      <Portfolio />
-      <Contact />
+    <div>
+      { isLoading ? (
+           <Loading />
+           ) : (
+        <div className="App">
+          <Navbar />
+          <Home />
+          <About />
+          <Skill />
+          <Portfolio />
+          <Contact />
       
-      {showBtn && <FaArrowCircleUp onClick={scrollUp} className='scrollBtn'/>}
+         {showBtn && <FaArrowCircleUp onClick={scrollUp} className='scrollBtn'/>}
+        </div> 
+        )}
     </div>
   );
+  // return (
+  //   <div className="App">
+  //     <Navbar />
+  //     <Home />
+  //     <About />
+  //     <Skill />
+  //     <Portfolio />
+  //     <Contact />
+      
+  //     {showBtn && <FaArrowCircleUp onClick={scrollUp} className='scrollBtn'/>}
+  //   </div>
+  // );
 }
 
 export default App;
