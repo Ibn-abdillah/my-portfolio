@@ -7,14 +7,14 @@ import { HiDownload } from 'react-icons/hi'
 function About() {
   
     const onButtonClick = () => {
-      fetch('AkinolaCV.pdf').then(response => {
+      fetch('Akinola_Sheriff_CV.pdf').then(response => {
           response.blob().then(blob => {
 
               const fileURL = window.URL.createObjectURL(blob);
             
               let alink = document.createElement('a');
               alink.href = fileURL;
-              alink.download = 'AkinolaCV.pdf';
+              alink.download = 'Akinola_Sheriff_CV.pdf';
               alink.click();
           })
       })
